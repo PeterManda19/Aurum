@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fiverr Freelance Service Marketing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--  Header part start here    -->
+<section class="header">
+    <div class="container pt-3 pb-3">
+        <div class="row">
+            <div class="col-md-5">
+               <div class="left-header">
+                <img src="img/fiverr.png" alt="">
+                <input type="text" placeholder="Find Service" id="search"> 
+                <i class="fas fa-search"></i>
+               </div>
+            </div>
+            <div class="col-md-7">
+                 <div class="right-header">
+                     <div class="header-menu text-right">
+                         <ul>
+                             <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
+                             <li><a href="">Join</a></li>
+                             <li><a href="">Sing In</a></li>
+                             <li><a href=""><button class="btn btn-success">Start Selling</button></a></li>
+                         </ul>
+                     </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!---Header part end here-->
+
+
+<!-- Header-bottom-menu start-->
+<section class="bottom-menu">
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li><a href="">Graphics & Design</a></li>
+                <li><a href=""> Online Marketing</a></li>
+                <li><a href="">Writing & Translation</a></li>
+                <li><a href="">Video & Animation</a></li>
+                <li><a href="">Music & Audio</a></li>
+                <li><a href="">Programming & Tech</a></li>
+                <li><a href="">Advertising</a></li>
+                <li><a href="">Business</a></li>
+                <li><a href="">More</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--Header-bottomenu -->
+
+
+<!--slider start-->
+<section class="slider">
+    <div class="slider-header text-center text-white">
+           <h1>What do you need done?<h1>
+           <h1> Find it on Fiverr</h1>
+           <p>Browse. Buy. Done.</p>
+           <div class="search-box text-center">
+               <input type="text" placeholder="What are you looking for?">
+               <button class="btn btn-success pl-4 pr-4">Find Service</button>
+           </div>
+    </div>
+</section>
+<!--slider end here-->
+<!--  Full-Body  star here-->
+
+<section class="full-body">
+<!--  TRENDING part star here-->
+    <div class="container collecttion text-center pb-5">
+        <h3>TRENDING COLLECTIONS</h3>
+        <p>Choose from our most popular services</p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-left p-2">
+                    <h4>GET FESTIVE!</h4>
+                    <p>Your One-stop shop for the holidays</p>
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/y0TjHrJ/tranding1.jpg" alt="tranding1" border="0"></a>
+                <div class="hover-img text-center">
+                   <ul>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/KKYytyq/hover2.jpg" alt="hover2" border="0"></a></a></li>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/tBPy6S1/hover3.jpg" alt="hover3" border="0"></a></a></li>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/G2133xZ/i3.jpg" alt="i3" border="0"></a></a></li>
+                   </ul>
+                </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card text-left p-2">
+                    <h4>GET A TRENDY LOGO</h4>
+                    <p>Your One-stop shop for the holidays</p>
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/rpXHrK4/tranding2.jpg" alt="tranding2" border="0"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-left p-2">
+                    <h4>START AN ONLINE SHOP</h4>
+                    <p>Your One-stop shop for the holidays</p>
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/4d0s36h/tt.jpg" alt="tt" border="0"></a>
+                <div class="hover-img text-center">
+                   <ul>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/KKYytyq/hover2.jpg" alt="hover2" border="0"></a></a></li>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/tBPy6S1/hover3.jpg" alt="hover3" border="0"></a></a></li>
+                       <li><a href=""><a href="https://imgbb.com/"><img src="https://i.ibb.co/G2133xZ/i3.jpg" alt="i3" border="0"></a></a></li>
+                   </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--TRENDING part end here-->
+<!-- FEATURED GIGS  -->
+<div class="container gigs">
+    <h3>FEATURED GIGS <sub>®</sub></h3>
+    <p>Noteworthy Services</p>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <img src="https://i.ibb.co/f9pcpYr/featured1.jpg" alt="featured1" border="0">
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                       <span>T</span>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>  
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Krpgggr/featured8.jpg" alt="featured8" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/wh9mhPb/featured7.jpg" alt="featured7" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/NVST9V2/featured2.jpg" alt="featured2" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/wS5zkmc/featured3.jpg" alt="featured3" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/SXrxVXT/featured5.jpg" alt="featured5" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/wh9mhPb/featured7.jpg" alt="featured7" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card">
+              <div class="row pb-2">
+                  <div class="col-md-5">
+                    <span>by pollob</span>
+                  </div>
+                  <div class="col-md-7">   
+                    <ul>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><i class="fas fa-star"></i></li>
+                        <li><span>(500) </span></li>
+                    </ul>
+                  </div>
+              </div>
+    
+                <div class="card-img text-left">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/TW364XT/featured4.jpg" alt="featured4" border="0"></a>
+                    <a href="">I will model your merchandise or hold your sign</a>
+                   <div class="text-bottom">
+                        <button>FEATURED</button>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-heart"></i>
+                    <span>$5</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FEATURED GIGS end  -->
+<!-- News   strt here-->
+    <div class="container news">
+        <div class="news-header">
+            <h3>NEWS AND STORIES</h3>
+            <p>From our Blog</p>
+           </div>
+        <div class="row">
+            <div class="col-md-6">
+               <div class="card">
+                <h4>Budding Freelancer Quits Day Job to Become a Successful Soccer Journalist</h4>
+                <p>It’s the dream of many people all across the world: Quit your day job that you don’t really like to set your own hours and make good money writing about an industry that you’re very passionate about. This is ...</p>
+                <span>Read the full story</span>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/6Wc8JmX/mews3.jpg" alt="mews3" border="0"></a>
+               </div>
+            </div>
+         <div class="col-md-6">
+            <div class="card">
+                <h4>Budding Freelancer Quits Day Job to Become a Successful Soccer Journalist</h4>
+                <p>It’s the dream of many people all across the world: Quit your day job that you don’t really like to set your own hours and make good money writing about an industry that you’re very passionate about. This is ...</p>
+                <span>Read the full story</span>
+                <a href="https://imgbb.com/"><img src="https://i.ibb.co/tmhqNW2/news2.jpg" alt="news2" border="0"></a>
+               </div>
+         </div>
+     </div>
+     <div class="row">
+         <div class="col-md-12">
+             <div class="register">
+                 <div class="row">
+                     <div class="col-md-2 text-center">
+                         <img src="img/register.png" alt="">
+                     </div>
+                     <div class="col-md-7">
+                         <h3>Need to get something done?</h3>
+                         <p>Join Fiverr Now!</p>
+                     </div>
+                     <div class="col-md-3">
+                         <button class="btn btn-success">Register</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+     
+   
+</div>
+<!-- News part end here-->
+</section>
+<!-- Full-Body part end here-->
+<!--   Get-Done-->
+<section class="get-done">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Z1zTHmz/header-top1.png" alt="header-top1" border="0"></a>
+                    <h3>Get Thing Done</h3>
+                    <p>People who love what they do help you get everything done at an unbeatable value.</p>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Z1zTHmz/header-top1.png" alt="header-top1" border="0"></a>
+                    <h3>Get Thing Done</h3>
+                    <p>People who love what they do help you get everything done at an unbeatable value.</p>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card">
+                    <a href="https://imgbb.com/"><img src="https://i.ibb.co/Z1zTHmz/header-top1.png" alt="header-top1" border="0"></a>
+                    <h3>Get Thing Done</h3>
+                    <p>People who love what they do help you get everything done at an unbeatable value.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Get- end Done-->
+<!--Fotter  part -->
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9">
+               <div class="left">
+                <div class="up-menu">
+                    <ul>
+                        <li><a href="">Directory</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Partnerships</a></li>
+                        <li><a href="">Jobs</a></li>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Privacy</a></li>
+                        <li><a href="">Forum</a></li>
+                        <li><a href="">Academy</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Store</a></li>
+                        <li><a href="">Affiliates</a></li>
+                        <li><a href="">Help</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-menu">
+                    <ul>
+                        <li>
+                            <select name="" id="">
+                                <option value="">Bangla</option>
+                                <option value="">English</option>
+                                <option value="">Hindi</option>
+                            </select>
+                        </li>
+                        <li><a href="https://imgbb.com/"><img src="https://i.ibb.co/YLrqdcT/google-play.png" alt="google-play" border="0"></a></li>
+                        <li><a href="https://imgbb.com/"><img src="https://i.ibb.co/mc0xFcM/bbb.png" alt="bbb" border="0"></a></li>
+                    </ul>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-3">
+                <div class="social-menu">
+                    <ul>
+                        <li><a href=""><i class="fab fa-invision"></i></a></li>
+                        <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href=""><i class="fab fa-google-plus-square"></i></a></li>
+                    </ul>
+                    <p>© by AH Pollob || Fiverr.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer part end here-->
+
+</body>
+</html>

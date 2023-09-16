@@ -1,0 +1,148 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF3C3;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.heading {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
+
+.campaigns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 20px;
+}
+
+.campaign {
+    background: #f8f4e5;
+    padding: 50px 100px;
+    border: 2px solid black;
+    box-shadow: 15px 15px 1px #ffa580, 15px 15px 1px 2px black;
+    text-align: center;
+}
+
+.campaign h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: "Fjalla One", sans-serif;
+}
+
+.campaign img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.campaign p {
+    font-size: 14pt;
+    line-height: 1.4; /* Adjust line spacing between lines in the campaign description */
+    font-family: "Fjalla One", sans-serif;
+    margin-bottom: 15px; /* Adjust spacing between elements in the campaign card */
+}
+
+button {
+    display: block;
+    margin: 40px auto 0;
+    line-height: 28pt;
+    padding: 0 20px;
+    background: #ffa580;
+    letter-spacing: 2px;
+    transition: 0.2s all ease-in-out;
+    outline: none;
+    border: 1px solid black;
+    box-shadow: 3px 3px 1px 1px #95a4ff, 3px 3px 1px 2px black;
+    font-family: "Fjalla One", sans-serif;
+}
+
+button:hover {
+    background: black;
+    color: white;
+    border: 1px solid black;
+}
+
+::selection {
+    background: #ffc8ff;
+}
+
+input[type="text"],
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("https://cdn.iconscout.com/icon/free/png-256/checkbox-144-722628.png") no-repeat center right / contain;
+    padding-right: 30px;
+}
+
+input[type="text"]::-webkit-inner-spin-button,
+input[type="text"]::-webkit-outer-spin-button,
+select::-webkit-select-inner-arrow,
+select::-webkit-select-outer-arrow {
+    appearance: none;
+    margin: 0;
+}
+
+input[type="text"]::-ms-clear {
+    display: none;
+}
+
+input[type="text"]::-ms-reveal,
+input[type="text"]::-ms-clear {
+    display: none;
+}
+
+input[type="text"]:hover::-ms-clear,
+input[type="text"]:hover::-ms-reveal {
+    display: none;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-bottom: 5px solid #ffa580;
+}
+
+input[type="text"]:focus::-webkit-input-placeholder,
+select:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus::-moz-placeholder,
+select:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input[type="text"]:focus:-ms-input-placeholder,
+select:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+/* Custom styles for select elements */
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='black' width='18px' height='18px'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E") no-repeat right center / 15px 15px;
+    padding-right: 30px;
+    background-color: #f8f4e5;
+    border: none;
+    border-bottom: 5px solid black;
+    font-size: 14pt;
+    line-height: 28pt;
+    font-family: "Fjalla One", sans-serif;
+    min-width: 250px;
+    outline: none;
+    color: black;
+}
+
+.custom-select:focus {
+    border-bottom: 5px solid #ffa580;
+}

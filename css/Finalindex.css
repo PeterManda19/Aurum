@@ -1,0 +1,489 @@
+
+/*  Header css start here  */
+.header{
+    background: #1f1f1f;
+}
+.header .left-header  img{
+    width: 120px;
+}
+.header .left-header input {
+    margin-left: 25px;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 16px;
+    outline: none;
+}
+.header .left-header i {
+    color: gray;
+    margin-left: -34px;
+}
+
+.header .right-header .header-menu{}
+.header .right-header .header-menu ul{
+    margin-bottom: 0px;
+    
+}
+.header .right-header .header-menu ul li {
+    display: inline-block;
+    margin-left: 18px;
+}
+.header .right-header .header-menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+.header .right-header .header-menu ul li a:hover{
+    color: rgb(37, 192, 37);
+}
+.header .right-header .header-menu ul li a i {
+    font-size: 25px;
+    color: gray;
+    margin-top: 2px;
+}
+.header .right-header .header-menu ul li a i:hover{
+    color: rgb(199, 199, 199);
+}
+.header .right-header .header-menu ul li a button{
+    width: 92px;
+    font-size: 15px;
+    padding: 3px 0px;
+    font-weight: 500;
+}
+/*  Header css end here */
+/*  Header-bottom-menu start*/
+.bottom-menu {
+    padding: 14px 0px;
+}
+.bottom-menu .menu{}
+.bottom-menu .menu ul{
+    margin-bottom: 0px;
+    padding-left: 1px;
+}
+.bottom-menu .menu ul li{
+    display: inline-block;
+    margin-right: 18px;
+}
+.bottom-menu .menu ul li a{
+    font-size: 15px;
+    color: #543c3c;
+    display: block;
+    text-decoration: none;
+}
+.bottom-menu .menu ul li a:hover{
+    color: rgb(25, 10, 161);
+}
+/*  Header-bottom-menu css end*/
+/*  Slider css part */
+@keyframes slider{
+    0%{
+        background: url(https://i.ibb.co/7RT7LPn/slider-one.jpg) no-repeat center top/ 100%;
+    }
+    20%{
+        background: url(https://i.ibb.co/41GsWxK/slider-tow.jpg) no-repeat center top/ 100%;
+    }
+    40%{
+        background: url(https://i.ibb.co/dM9k9Zg/slider-three.jpg) no-repeat center top/ 100%;
+    }
+    70%{
+        background: url(https://i.ibb.co/q13CRV9/slider-four.jpg)  no-repeat center top/ 100%;
+    }
+    100%{
+        background: url(https://i.ibb.co/7RT7LPn/slider-one.jpg)  no-repeat center top/ 100%;
+    }
+
+}
+.slider {
+    width: 100%;
+    height: 352px;
+    background-size: 100% 100%;
+    animation-name: slider;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.slider .slider-header {
+    padding-top: 40px;
+}
+.slider .slider-header h1 {
+    margin-bottom: 1px;
+}
+.slider .slider-header p {
+    font-size: 20px;
+}
+.slider .slider-header .search-box {
+    width: 470px;
+    margin: auto;
+    background: #272525c2;
+    padding: 9px;
+    border-radius: 10px;
+}
+.slider .slider-header .search-box input {
+    width: 309px;
+    padding: 13px 0px 15px 18px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    margin-right: 3px;
+}
+.slider .slider-header .search-box button {
+    padding: 11px 0px 13px 0px;
+    border: none;
+    outline: 0;
+}
+/* slider part end here*/
+/*Full-Body */
+.full-body{
+    background: #eeeeee;
+}
+.collecttion {
+    padding: 55px 0px;
+    z-index: 999999;
+    position: relative;
+    top: -45px;
+    background: #fff5fe;
+    border-radius: 25px 25px 0px 0px;
+    padding: 30px;
+    border: 1px solid #cecece;
+    border-bottom: none;
+}
+.collecttion h3 {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.collecttion p {
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 37px;
+}
+.collecttion .card{
+    position: relative;
+    overflow: hidden;
+}
+.collecttion .card::before {
+    content: '';
+    height: 0%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #ffffff54;
+    transition: .5s;
+}
+.collecttion .card:hover::before{
+    height: 100%;
+}
+.collecttion .card h4 {
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 700;
+    transition: .5s;
+}
+.collecttion .card:hover h4{
+    color: blue;
+}
+.collecttion .card p {
+    font-size: 17px;
+    font-weight: 600;
+    color: gray;
+    margin-bottom: 8px;
+}
+.collecttion .card img{
+    width: 100%;
+}
+
+.collecttion .card .hover-img{
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: white;
+    transition: .5s;
+    opacity: -1;
+    visibility: hidden;
+}
+
+.collecttion .card:hover .hover-img{
+    height: 100px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.collecttion .card .hover-img ul {
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0px;
+}
+.collecttion .card .hover-img ul li{
+    display: inline-block;
+    margin-right: 0px;
+}
+.collecttion .card .hover-img ul li a img{
+    width: 108px;
+    margin-top: 13px;
+}
+/* FEATURED GIGS part start */
+.gigs {
+    background: #fff5fe;
+    padding-top: 30px;
+    margin-top: -43px;
+    border: 1px solid #cecece;
+    padding: 30px;
+    border-top: none;
+    border-bottom: none;
+}
+.gigs h3{
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+.gigs p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 37px;
+    text-align: center;
+}
+.gigs .card {
+    padding: 6px;
+    margin-bottom: 25px;
+}
+.gigs .card span {
+    font-size: 15px;
+    margin-left: 10px;
+}
+.gigs .card ul {
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: inline-block;
+    text-align: right;
+}
+.gigs .card ul li {
+    display: inline-block;
+    font-size: 11px;
+    color: #a59210;
+}
+.gigs .card ul li span {
+    font-size: 13px;
+    color: black;
+}
+.gigs .card .card-img {
+    transform: translateY(-32px);
+    transition: .2s;
+}
+.gigs .card:hover .card-img{
+    transform: translateY(0px);
+}
+.gigs .card .card-img img{
+    width: 100%;
+}
+.gigs .card .card-img a {
+    width: 100%;
+    display: block;
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.gigs .card .card-img .text-bottom button {
+    height: 20px;
+    font-size: 10px;
+    font-weight: 800;
+    border: none;
+    background: deeppink;
+    border-radius: 7px;
+    color: white;
+    outline: 0;
+    margin-left: 7px;
+}
+.gigs .card .card-img a:hover{
+    color: green;
+}
+.gigs .card .card-img .text-bottom span {
+    font-weight: 700;
+    padding: 3px 10px;
+    border-radius: 50%;
+    background: yellow;
+    margin-left: 10px;
+}
+.gigs .card .card-footer {
+    position: absolute;
+    bottom: 0;
+    background: white;
+    width: 100%;
+    left: 0;
+    height: 32px;
+    padding: 0;
+    border: none;
+}
+.gigs .card .card-footer i {
+    color: gray;
+    margin-left: 7px;
+}
+.gigs .card .card-footer span {
+    margin-left: 188px;
+    font-size: 18px;
+    font-weight: 800;
+    color: green;
+}
+
+/*  FEATURED GIGS END */
+/* News start */
+.news {
+    background: #fff5fe;
+    padding: 30px;
+    border: 1px solid #cecece;
+    border-top: none;
+    border-bottom: none;
+}
+
+.news-header{
+    width: 100%;
+}
+.news-header h3{
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+.news-header p{
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 37px;
+    text-align: center;
+}
+.news .card {
+    padding: 7px;
+}
+.news .card h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+.news .card h4:hover{
+    color: green;
+}
+.news .card p {
+    font-size: 15px;
+    line-height: 20px;
+    color: gray;
+}
+.news .card span {
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+.news .card span:hover{
+    color: green;
+}
+.news .card img {
+    width: 100%;
+}
+.news .register{}
+.news .register {
+    width: 700px;
+    background: #fceac5;
+    margin: auto;
+    margin-top: 60px;
+    padding: 13px 0px;
+    border-radius: 10px;
+}
+.news .register img{}
+.news .register h3 {
+    margin-bottom: 0px;
+}
+.news .register p{
+    margin-bottom: 0px;
+}
+.news .register button {
+    margin-top: 7px;
+    padding: 8px 32px;
+}
+/* News part end here   */
+/*Full-Body end */
+/*  Get start */
+.get-done{
+    border-top: 1px solid #cecece;
+}
+.get-done .card {
+    border: none;
+    margin-top: 75px;
+    margin-bottom: 50px;
+}
+.get-done .card img {
+    margin-bottom: 20px;
+}
+.get-done .card h3 {
+    font-weight: 800;
+}
+.get-done .card p {
+    color: gray;
+}
+/*Get part end */
+/* Fotter css start here */
+.footer{
+    background: white;
+    border-top: 1px solid #cecece;
+}
+.footer .left{}
+.footer .left .up-menu{}
+.footer .left .up-menu ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    padding: 23px 0px;
+}
+.footer .left .up-menu ul li {
+    display: inline-block;
+    margin-right: 16px;
+}
+.footer .left .up-menu ul li a {
+    color: gray;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.footer .left .up-menu ul li a:hover{
+    color: green;
+}
+.footer .left .bottom-menu{}
+.footer .left .bottom-menu ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer .left .bottom-menu ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer .left .bottom-menu ul li select {
+    width: 131px;
+    border: 1px solid #adadad;
+    padding: 3px 9px 9px;
+    border-radius: 5px;
+}
+.footer .social-menu{
+    text-align: center;
+}
+.footer .social-menu ul {
+    margin-bottom: 0;
+}
+.footer .social-menu ul li{
+    display: inline-block;
+    margin-right: 11px;
+}
+.footer .social-menu ul li a{
+    font-size: 32px;
+    color: gray;
+    transition: .5s;
+}
+.footer .social-menu ul li a:hover{
+    color: green;
+}
+.footer .social-menu p {
+    font-size: 12px;
+    margin-left: 30px;
+    margin-top: 19px;
+    color: #c0392b;
+}
+/* Fotter part end here */
